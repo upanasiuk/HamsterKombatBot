@@ -295,7 +295,7 @@ class Tapper:
                                     continue
 
                                 title = promo['title']['en']
-                                keys_per_day = promo['keysPerDay']
+                                keys_per_day = promo['rewardsPerDay']
 
                                 today_promo_activates_count = promo_activates.get(promo_id, 0)
 
